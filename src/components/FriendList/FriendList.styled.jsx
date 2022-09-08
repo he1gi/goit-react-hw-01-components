@@ -39,9 +39,8 @@ export const Chip = styled.span`
         return 'green';
       case false:
         return 'red';
+      default:
+        return 'transparent';
     }
-  }};
-  ${props => {
-    console.log(props.isOnline);
   }};
 `;
